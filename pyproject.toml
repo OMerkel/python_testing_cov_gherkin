@@ -1,0 +1,19 @@
+[project]
+name = "test_code"
+version = "0.1.0"
+description = "Test stuff for explanation of coverage vs. unit tests. And Gherkin for test descrption."
+authors = [
+    {name = "Oliver Merkel", email = "Merkel.Oliver@web.de"},
+]
+dependencies = [
+    "pytest",
+    "coverage",
+    "pytest-cov",
+]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
