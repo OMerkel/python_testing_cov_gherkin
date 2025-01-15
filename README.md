@@ -77,3 +77,47 @@ As such it is more helpful to use e.g. the following test types for refined spec
 * Exploratory Testing
 * Automation Testing
 * Smoke Testing
+
+# The Gherkin Part in the Code Comments
+
+Gherkin language can be used e.g. to describe test sepcifications or acceptance criteria.
+Gherkin is a language with just a few keywords actually.
+Typical keywords used to start a line with are
+
+* Feature:
+* Scenario:
+* Given
+* When
+* Then
+* And
+
+Some more Gherkin keywords exist but anyway these can be used as a good starting point.
+An example usage of Gherkin from one of the tests in this repository is
+
+```
+        Feature: Add negative numbers representing sizes of a shape
+        Scenario: Get the sum of two negative numbers
+
+        Given I have two negative numbers representing sizes of a shape
+        When I add them together
+        Then I should get the a NaN value
+```
+
+Mind that you can incorporate SCRUM agile user stories in a Gherkin context as well.
+User stories usually follow a schema like
+
+“As [a user persona], I want [to perform this action] so that [I can accomplish this goal].”
+
+Combined in Gherkin this can be formulated as
+
+```
+        Given I have two positive numbers
+        When I add them together as a user of the function
+        Then I should get the sum of the two numbers in order to...
+```
+
+```
+        Given I have two positive numbers
+        When [to perform this action] as [a user persona]
+        Then I should get the sum of the two numbers in order to [accomplish this goal]
+```
