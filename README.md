@@ -43,7 +43,7 @@ So talking about just Unit Testing is not helpful at all.
 It should be specified what exact test type is intended in any Unit Test.
 Unit Test just means an actual value is compared towards an expected value.
 But it does not state anything whether that test intends to test e.g. value boundary issues,
-sanity of values passed to the test in terms of fullfillment of a protocol on an API,
+sanity of values passed to the function test object in terms of fullfillment of a protocol on an API,
 checking conformance of an architecture or simply functional testing as a positive test
 using proven valid values compared to an expected return value, etc.
 As such it is more helpful to use e.g. the following test types for refined specification.
