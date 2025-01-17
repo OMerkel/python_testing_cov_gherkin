@@ -80,7 +80,7 @@ As such it is more helpful to use e.g. the following test types for refined spec
 
 # The Gherkin Part in the Code Comments
 
-Gherkin language can be used e.g. to describe test sepcifications or acceptance criteria.
+Gherkin language can be used e.g. to describe test specifications or acceptance criteria.
 Gherkin is a language with just a few keywords actually.
 Typical keywords used to start a line with are
 
