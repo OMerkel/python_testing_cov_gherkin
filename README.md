@@ -78,6 +78,7 @@ As such it is more helpful to use e.g. the following test types for refined spec
 * Exploratory Testing
 * Automation Testing
 * Smoke Testing
+* Pin-down Testing (Pin-down a behaviour/requirement prior to refactoring)
 
 # The Gherkin Part in the Code Comments
 
